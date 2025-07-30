@@ -1,0 +1,12 @@
+>>> length = 10
+>>> width = 5
+>>> area = length * width
+>>> print(area)
+50
+>>> print ("The area of the rectangle is: area)
+  File "<stdin>", line 1
+    print ("The area of the rectangle is: area)
+           ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print ("The area of the rectangle is:", area)
+The area of the rectangle is: 50

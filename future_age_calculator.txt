@@ -1,0 +1,14 @@
+>> current_age = int(input("Enter current age: "))
+Enter current age: 18
+>>> future_year = int(input("Enter a future year: "))
+Enter a future year: 2050
+>>> current_year = 2023
+>>> years_to_go = future_year - current_year
+>>> future_age = current_age + years_to_go
+>>> print(f"In the year{future_year}, you will be {future_age} years old.)
+  File "<stdin>", line 1
+    print(f"In the year{future_year}, you will be {future_age} years old.)
+          ^
+SyntaxError: unterminated f-string literal (detected at line 1)
+>>> print(f"In the year{future_year}, you will be {future_age} years old.")
+In the year2050, you will be 45 years old.
